@@ -1,0 +1,367 @@
+/* general styles */
+
+h1 {
+	font-family: tahoma;
+	font-weight: 400px;
+	font-style: bold;
+	color: white;
+	text-shadow: 1.5px 1.5px 1.5px black;
+	margin-left: 20px;
+}
+
+h2 {
+	font-family: tahoma;
+	font-weight: 200px;
+	font-style: bold;
+	color: black;
+	text-shadow: 1.5px 1px 1px white;
+}
+
+h3 {
+	font-family: tahoma;
+	font-weight: 200px;
+	color: black;
+	text-shadow: 1px 1px 1px white;
+}
+
+p {
+	font-family: tahoma;
+	color: black;
+	width: 60%;
+}
+
+pre {
+	font-family: tahoma;
+	font-weight: 100px;
+	color: white;
+}	
+
+form {
+	font-family: tahoma;
+	font-weight: 300px;
+	color: black;
+}
+
+ul {
+	font-family: tahoma;
+	font-weight: 500px;
+	height: 60px;
+	color: white;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	margin-right: 50px;
+	margin-top: -60px;
+}
+
+li {
+	float: right;
+	font-size: 120%;
+	text-shadow: 1px 1px 1px black;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 14 16;
+	cursor: pointer;
+}
+
+li a:hover{
+	color: orange;
+}
+
+li a:active{
+	color: orange;
+}
+
+body {
+	background-color: white;
+    margin:0 auto;
+    padding:0;
+
+}
+
+textarea {
+	height: 300px;
+	width: 600px;
+}
+
+table {
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+}
+
+td:hover {
+	color: #948ABC;
+}
+
+caption {
+	font-size: 40px;
+	font-weight: 400px;
+	font-family: tahoma;
+}
+
+body table td:before {
+	font-size: 60px;
+	line-height: 2;
+	position: relative;
+	margin: auto;
+	color: #948ABC;
+}
+
+
+body table td.x:before {
+	content: "x";
+	color: #BA3D00;
+	margin: 0 auto;
+	font-size: 70px
+}
+
+body table td.o:before {
+	content: "o";
+	color: #BA3D00;
+	font-size: 70px;
+}
+
+.test {
+	content: "SHITBALLS";
+	color: black;
+	font-size: 100px;
+}
+
+/* DIVs and IDs */
+
+.header {
+	background-color: #00527a;
+	height: 80px;
+	min-width: 100%;
+	margin-left: -10;
+	margin-right: auto;
+	margin-top: -8;
+}
+
+.sitetitle {
+	padding: .5px 0 10px 15px;
+	margin-top: -2px;
+}
+
+.nav {
+	display: inline;
+	list-style: none;
+	margin-right: auto;
+}
+
+.maintext {
+	margin-top: 40px;
+	margin-left: 20px;
+	text-indent: 20px;
+	width: 90%;
+	min-width: 70%;
+}
+
+.footercontainer {
+	background-color: #00527a;
+	height: 70px;
+	min-width: 100%;
+	margin-right: auto;
+	margin-top: 400px;
+	text-align: center;
+	width: 100%;
+}
+
+.register {
+	margin-left: auto;
+	margin-right: 120px;
+	margin-top: -400px;
+    max-width: 250px;
+    background: #FFF;
+    padding: 20px 30px 20px 30px;
+    font: 12px, Tahoma;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #DDD;
+    border-radius: 5px;
+    position: relative;
+    float: right;
+}
+
+.register h3 {
+	padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: -10px -30px 30px -30px;
+    color: black;
+}
+
+.register label {
+	display: block;
+    margin: 0px 0px 5px;
+    font: tahoma;
+}
+
+.register input[type="text"], .register input[type="email"], .register textarea, .register select{
+    border: 1px solid #CCC;
+    color: #888;
+    height: 20px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.register button {
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 10px 25px;
+    color: #333;
+    border-radius: 4px;
+}
+
+.register button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+    border-color: #ADADAD;
+}
+
+.footertext {
+	padding: 14 1;
+	text-align: center;
+	font-size: small;
+
+}
+
+.contact {
+	margin-left:auto;
+	margin-right:auto;
+    max-width: 600px;
+    background: #FFF;
+    padding: 20px 30px 20px 30px;
+    font: 12px, Tahoma;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #DDD;
+    border-radius: 5px;
+    margin-top: -400px;
+    position: relative;
+    float: center;
+    margin-top: 100px;
+}
+
+.contact h3 {
+	padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: -10px -30px 30px -30px;
+    color: black;
+}
+
+.contact label {
+	display: block;
+    margin: 0px 0px 5px;
+    font: tahoma;
+}
+
+.contact input[type="text"], .contact input[type="email"], .contact select{
+	border: 1px solid #CCC;
+    color: #888;
+    height: 20px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.contact button {
+	background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 10px 25px;
+    color: #333;
+    border-radius: 4px;
+    margin-left: 250;
+
+}
+
+.contact button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+    border-color: #ADADAD;
+}
+
+.tictactable td {
+	width: 40px;
+	height: 160px;
+	border: 3px solid #0067B2;
+	cursor: pointer;
+	z-index: -1;
+	text-align: center;
+}
+
+.tictactable td:hover{
+	background-color: #c6c1dd;
+
+}
+
+.resetbutton {
+	text-align: center;
+	padding: 0 0 0 0;
+}
+
+#reset {
+	font-family: tahoma;
+	font-size: 12px;
+	background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 10px 25px;
+    color: #333;
+    border-radius: 4px;
+    width: 10%;
+    cursor: pointer;
+}
+/* trying to get a better message than the alert - work in progress */
+#fail {
+	content: "lol you can't put something there you idiot";
+	line-height: 10px
+}
+
+#turn.x {
+	font-family: tahoma;
+	font-size: 12px;
+    border: 1px solid #CCC;
+    color: #333;
+    border-radius: 9px;
+    width: 50%;
+    background-color: #29167A;
+    text-indent: 0;
+    margin: 0 auto;
+    height: 40px;
+    content: "Player 1";
+    font-size: 20px
+}
+
+#turn.o {
+	font-family: tahoma;
+	font-size: 12px;
+    border: 1px solid #CCC;
+    color: #333;
+    border-radius: 9px;
+    width: 50%;
+    background-color: orange;
+    text-indent: 0;
+    margin: 0 auto;
+    height: 40px;
+    content: "Player 2";
+    font-size: 20px
+
+}
+

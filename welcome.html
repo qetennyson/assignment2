@@ -1,0 +1,73 @@
+<html>
+
+<head>
+<style>
+</style>
+<link rel="stylesheet" type="text/css" href="tictac.css"></link>
+<script src="file:///Users/Scales/Documents/411/assignment2/jquery-1.12.0.min.js"></script>
+<script src="file:///Users/Scales/Documents/411/assignment2/jquery-validation-1.14.0/dist/jquery.validate.js"></script>
+
+<title>Welcome</title>
+</head>
+<body>
+	<div class="header">
+		<div class="sitetitle">
+		<h1>tic tac toe</h1>
+		</div>
+	</div>
+		<div class="nav">
+		<ul>
+			<li><a href="contact.html">CONTACT US</li></a>
+			<li><a href="faq.html">FAQ</li></a>
+			<li><a href="play.html">PLAY</li></a>
+			<li><a href="welcome.html">HOME</li></a>		
+		</ul>
+		</div>
+		<div class="maintext">
+	<h2>The History of the Game</h2>
+		<h3>Who Made It?</h3>
+		<p>The name tic tac toe comes from a game by the same name, no longer played, in which players with their eyes closed tossed a pencil down onto a slate marked with numbers, and earned the score the number indicated--something like blind darts. The game dates to the mid- to late 1800s. </p>
+
+		<p>"Ticktack," according to the Random House Dictionary of English language, is a repetitive sound made by repetitive tapping, knocking or clicking. Thus, "tic tac toe" is an imitation of the sound the pencil makes when hitting the slate. <b>Numerical Tic Tac Toe</b> is a variation invented by the mathematician Ronald Graham. The numbers 1 to 9 are used in this game. </p>
+
+		<h3>Why is it called a "Cat's Game"?</h3>
+		<p>The analogy is that a cat won't win the game of trying to catch its tail, and you can't win a tied game of Tic Tac Toe. This seems plausible, but then again, I've seen plenty of cats catch their tails. Another source suggests that Tac spelled backwards is cat, and cats scratch.</p>
+	</div>
+
+<div class="register">
+	<h3>Register Here</h3>
+	<form id="registerform" method="get">
+
+		First Name*<input type="text" name="firstname" minlength="2" required><br>
+
+		Last Name*<input type="text" name="lastname" minlength="2" required><br>
+
+		Username*<input type="text" name="username" minlength="1" required><br>
+
+		Create Password*<input type="text" name="pass" required><br>
+
+		Email Address*<input type="email" name="email" required><br>
+		
+		<p>* indicates a required field.</p>
+
+		<button type="button">Submit</button>
+	</form>
+	<script>
+	$("#registerform").validate();
+	</script>
+</div>
+
+<div class="footercontainer">
+	<div class="footertext">
+	<pre>design by Quincy Tennyson - 2015</pre>
+	</div>
+
+</div>
+
+
+</body>
+
+
+
+
+</html>
